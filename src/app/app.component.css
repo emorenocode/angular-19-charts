@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+app-chart-line,
+app-chart-bar,
+app-chart-doughnut {
+  display: block;
+  width: 100%;
+  height: 400px;
+  padding: 20px 5px;
+}
